@@ -1,10 +1,36 @@
-h1 {
-  color: black;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+body {
+  background: #efefef;
+  font-family: "M PLUS 2", sans-serif;
+  font-weight: 300;
 }
-
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: normal;
+h1 {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 210px;
+  line-height: 0.9;
+  margin-left: 16px;
+}
+.about {
+  font-size: 30px;
+}
+.hero p {
+  margin-top: 300px;
+  margin-right: 70px;
+}
+.bg-light {
+  background: #efefef !important ;
+}
+.hero {
+  padding-top: 250px;
+}
+.mail {
+  background: black;
+  border: 2px solid black;
+  padding: 8px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #efefef;
+}
+.mail:hover {
+  color: black;
+  background-color: #efefef;
 }
