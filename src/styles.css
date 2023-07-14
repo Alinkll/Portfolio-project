@@ -34,3 +34,19 @@ h1 {
   color: black;
   background-color: #efefef;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 70px;
+  }
+  .hero {
+    padding-top: 25px;
+  }
+
+  .mail {
+    display: block;
+    text-align: center;
+    padding: 12px 40px;
+    margin: 0 auto;
+  }
+}
