@@ -29,10 +29,41 @@ h1 {
   border-radius: 50px;
   text-decoration: none;
   color: #efefef;
+  margin-top: 50px;
+  display: block;
+  max-width: 175px;
 }
 .mail:hover {
   color: black;
   background-color: #efefef;
+}
+.skills {
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
+}
+.wrapper_skills {
+  padding: 0 10px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.wrapper_skills h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.count {
+  opacity: 0.1;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+}
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 30px;
+}
+.footer a {
+  font-size: 14px !important;
 }
 
 @media (max-width: 600px) {
