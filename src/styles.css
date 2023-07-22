@@ -93,14 +93,6 @@ li {
   font-size: 75px;
 }
 
-img {
-  width: 300px;
-  border-radius: 15px;
-  opacity: 0.5;
-}
-img:hover {
-  opacity: 1;
-}
 .project_link {
   text-decoration: none;
   color: black;
@@ -109,6 +101,15 @@ img:hover {
 .project_link:hover {
   color: black;
   opacity: 0.5;
+}
+.contact_page {
+  margin: 100px 30px;
+  margin-right: 300px;
+  padding-bottom: 40px;
+}
+.contact_page h1 {
+  font-size: 75px;
+  line-height: 1.1;
 }
 @media (max-width: 600px) {
   h1 {
