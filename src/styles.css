@@ -44,6 +44,8 @@ h1 {
   padding: 0 10px;
   margin-top: 200px;
   margin-bottom: 200px;
+  margin-left: 10px;
+  margin-right: 0px;
 }
 .wrapper_skills h2 {
   font-size: 50px;
@@ -65,7 +67,49 @@ li {
 .footer a {
   font-size: 14px !important;
 }
+.project {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+}
+.project_img a {
+  font-size: 100px;
+  opacity: 0.2;
+}
+.project p {
+  font-size: 14px;
+}
+.project_img {
+  display: flex;
+  justify-content: space-around;
+  justify-content: right;
+}
+.container_project {
+  margin-top: 75px;
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+.container_project h2 {
+  font-size: 75px;
+}
 
+img {
+  width: 300px;
+  border-radius: 15px;
+  opacity: 0.5;
+}
+img:hover {
+  opacity: 1;
+}
+.project_link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+.project_link:hover {
+  color: black;
+  opacity: 0.5;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 70px;
