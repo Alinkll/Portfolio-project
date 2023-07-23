@@ -37,6 +37,21 @@ h1 {
   color: black;
   background-color: #efefef;
 }
+.mail_contact {
+  background: black;
+  border: 2px solid black;
+  padding: 8px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #efefef;
+  margin-top: 50px;
+  display: block;
+  max-width: 175px;
+}
+.mail_contact:hover {
+  color: black;
+  background-color: #efefef;
+}
 .skills {
   border-left: 2px solid rgba(0, 0, 0, 0.1);
 }
@@ -103,13 +118,15 @@ li {
   opacity: 0.5;
 }
 .contact_page {
-  margin: 100px 30px;
-  margin-right: 300px;
-  padding-bottom: 40px;
+  padding-left: 20px;
+
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 .contact_page h1 {
   font-size: 75px;
   line-height: 1.1;
+  margin-left: 0px;
 }
 .hover-underline-animation {
   position: relative;
@@ -135,12 +152,36 @@ li {
 .nav-link {
   padding-bottom: 0;
 }
+
+@media (min-width: 601px) {
+  .bar_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 70px;
   }
   .hero {
     padding-top: 25px;
+  }
+  .center {
+    margin: 0 auto;
+  }
+  .contact_page h1 {
+    font-size: 50px;
+  }
+  .mail_contact {
+    display: block;
+    text-align: center;
+    padding: 12px 40px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 
   .mail {
